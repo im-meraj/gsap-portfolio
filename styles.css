@@ -1,0 +1,173 @@
+@import url('http://fonts.cdnfonts.com/css/mowgli-script');
+@import url('http://fonts.cdnfonts.com/css/maybe-coffee');
+@import url('http://fonts.cdnfonts.com/css/benz-grotesk');
+@import url('http://fonts.cdnfonts.com/css/bokis');
+@import url('http://fonts.cdnfonts.com/css/hammer-scout');
+@import url('http://fonts.cdnfonts.com/css/the-laker');
+@import url('http://fonts.cdnfonts.com/css/mofela');
+@import url('http://fonts.cdnfonts.com/css/futura-pt');
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #1a1a1a;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container-main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #9FD0EC;
+}
+
+.header-container {
+    width: 100%;
+    height: 100px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    padding: 23px 60px 0 60px;
+}
+
+.header-logo {
+    max-width: 89px;
+    max-height: 84px;
+}
+
+.logo-text {
+    font-size: 64px;
+    font-family: 'Mowgli Script', cursive;
+    color: #1a1a1a;
+    pointer-events: none;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 640px;
+    gap: 60px;
+}
+
+.link {
+    font-size: 24px;
+    font-family: 'Futura PT','Poppins', sans-serif;
+    font-family: 'The Laker', sans-serif;
+    color: #1a1a1a;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link a:hover {
+    border-bottom: #1a1a1a 2px solid;
+}
+
+.main-container {
+    width: 100%;
+    height: 90vh;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main-content h1 {
+    font-size: 400px;
+    font-family: 'Benz Grotesk', sans-serif;
+    color: #1a1a1a;
+    text-align: center;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.mascot-img {
+    position: absolute;
+    top: -100%;
+    left: 25%;
+    transform: scaleX(-1);
+    z-index: 100;
+}
+
+.section-1 {
+    width: 100%;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+.section-1-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.section-1-content h1 {
+    font-size: 64px;
+    font-family: 'Benz Grotesk', sans-serif;
+    color: #1a1a1a;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.section-1-content img {
+    position: absolute;
+    top: 10%;
+    left: 0;
+}
+
+.section-2 {
+    width: 100%;
+    height: 100vh;
+    background-color: #bbe2d6;
+}
+
+.section-2-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.section-2-content h1 {
+    font-size: 64px;
+    font-family: 'Benz Grotesk', sans-serif;
+    color: #1a1a1a;
+    text-align: center;
+}
